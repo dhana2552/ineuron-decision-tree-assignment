@@ -8,7 +8,7 @@ predictions = pd.DataFrame(results)
 
 st.title("Decision Tree Classifier Assignment")
 st.markdown("This page contains the list of passengers taken as part as test set for Decision Tree Classifier Assignment by iNeuron.ai.  ")
-st.image('titanic_image.png')
+st.image('titanic_image.PNG')
 
 selected_name = st.selectbox(
     "Select a name and click predict to view the prediction result with passenger's details ",
